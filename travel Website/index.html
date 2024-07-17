@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo">Destination <span> Dreams</span></a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#booking">Booking</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here....">
+        <label for="search-bar"></label>
+    </form>
+</header>
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn"> 
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>forget password<a href=""> click here</a></p>
+        <p>Don't have an account? <a href=""> Register here</a></p>
+
+    </form>
+</div>
+<section class="home" id="home">
+    <div class="content">
+        <h3>Explore<span> the World </span></h3>
+        <p>Discover Hidden Gems and Create Unforgettable Memories</p>
+        <a href="#" class="btn">Explore more</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="v2.mp4"></span>
+        <span class="vid-btn" data-src="v5.mp4"></span>
+        <span class="vid-btn" data-src="v3.mp4"></span>
+        <span class="vid-btn" data-src="v4.mp4"></span>
+        <span class="vid-btn" data-src="v1.mp4"></span>
+    </div>
+    <div class="video-container">
+        <video src="v2.mp4" id="video-slider" loop autoplay muted></video>
+       
+    </div>
+
+</section>
+<section class="book" id="booking">
+    <h1 class="heading">
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="book12.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="input-box">
+                <h3>To</h3>
+                <input type="text" placeholder="place name">
+             </div>
+             <div class="input-box">
+                <h3>Travellers</h3>
+                <input type="number" placeholder="number of guests">
+             </div>
+             <div class="input-box">
+                <h3>Arrival</h3>
+                <input type="date">
+             </div>
+             <div class="input-box">
+                <h3>Leaving</h3>
+                <input type="date">
+             </div>
+             <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>P</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <image src="tajmahal.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Delhi</h3>
+                <p> Delhi, the capital city of India, is a captivating blend of history and modernity.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$85<span>  $140.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="malasia.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Malaysia</h3>
+                <p>Malaysia, a tropical paradise in Southeast Asia, is renowned for its stunning landscapes.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$140<span>  $320.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="thailand.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Thailand</h3>
+                <p>Thailand, the Land of Smiles, is a captivating destination known for its breathtaking landscapes.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$120<span>  $240.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="maldives.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Maldives</h3>
+                <p> Maldives promises an idyllic and unforgettable experience surrounded by breathtaking natural beauty.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$150<span>  $340.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="london.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>London</h3>
+                <p> London, the vibrant capital of the United Kingdom, is a city where history meets modernity. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$150<span>  $320.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="switzerland.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Switzerland</h3>
+                <p>Switzerland, a picturesque wonderland in the heart of Europe, is famed for its stunning alpine landscapes.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$180<span>  $350.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="hongkong.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Hong Kong</h3>
+                <p>Hong Kong, a dazzling metropolis on the southern coast of China, is a vibrant blend of East and West.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$160<span>  $330.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="edinburgh.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Edinburgh</h3>
+                <p> Edinburgh, the enchanting capital of Scotland, is a city steeped in history and culture.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$170<span>  $360.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <image src="germanweb.jpg" alt=""></image>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>German</h3>
+                <p>Germany, a country of rich history and diverse landscapes, offers an array of experiences for every traveler.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$140<span>  $380.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+     <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>Hotel Reservation</h3>
+        <p>Browse and book accommodations, ranging from budget hotels to luxury resorts.</p>
+     </div>
+     <div class="box">
+        <i class="fas fa-car"></i>
+        <h3>Car Rentals</h3>
+        <p>Rent cars from various providers for self-driving tours and local transportation.</p>
+     </div>
+     
+     <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Travel Guides and Blogs</h3>
+        <p> Access detailed travel guides, tips, and articles to help plan trips and discover new destinations.</p>
+     </div>
+     <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>Travel Deals</h3>
+        <p>Personalized itineraries and travel plans tailored to individual preferences and needs.</p>
+     </div>
+    </div>
+</section>
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="1.jpg">
+        </div>
+        <div class="box">
+            <img src="2.jpg">
+        </div>
+        <div class="box">
+            <img src="3.jpg">
+        </div>
+        <div class="box">
+            <img src="4.jpg">
+        </div>
+        <div class="box">
+            <img src="5.jpg">
+        </div>
+        <div class="box">
+            <img src="6.jpg">
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>  
+  </h1>
+  <div class="row">
+    <div class="image">
+        <img src="logotravel.jpeg" alt="">
+    </div>
+    <form action="">
+        <div class="input-box">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send message">
+    </form>
+  </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-content">
+                <p>Follow us on</p>
+                <p class="socials">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                  </p>
+                </div>
+                <p class="rights"> All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
